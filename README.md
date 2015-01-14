@@ -23,19 +23,19 @@ will display the phrase "Hello, James."
 
 Complete these (11-21) as homework and bring them to next class:
 
-11. A multiple-dial combination lock has three rings of numbers from 1 - 10. One setting of these three rings is the combination that opens the lock. Write a program that computes the number of possible combinations for such a lock and displays the number to the user.
+11\. A multiple-dial combination lock has three rings of numbers from 1 - 10. One setting of these three rings is the combination that opens the lock. Write a program that computes the number of possible combinations for such a lock and displays the number to the user.
 
-12. Write a program that prompts the user to enter a number and then displays the absolute value of that number. For example, if the enters "5" the program will display "5." if the user enters "-5" the program will display "5." (Hint: the absolute value of a number is its distance from zero on the number line. -3 and 3 are both 3 units away from zero.)
+12\. Write a program that prompts the user to enter a number and then displays the absolute value of that number. For example, if the enters "5" the program will display "5." if the user enters "-5" the program will display "5." (Hint: the absolute value of a number is its distance from zero on the number line. -3 and 3 are both 3 units away from zero.)
 
-13. Write a program that displays all numbers between 1 and 100 that are evenly divisible by 7. Display the numbers in a single alert. (Hint: use string concatonation to build the string you will display).
+13\. Write a program that displays all numbers between 1 and 100 that are evenly divisible by 7. Display the numbers in a single alert. (Hint: use string concatonation to build the string you will display).
 
-14. Write a program that prompts the user to enter two numbers and then displays whichever number is greater.
+14\. Write a program that prompts the user to enter two numbers and then displays whichever number is greater.
 
-15. Write a program that computes 121 divided by 7 and displays the result of the division AND the remainder to the user. For this program, you are not allowed to use the / or % operators.
+15\. Write a program that computes 121 divided by 7 and displays the result of the division AND the remainder to the user. For this program, you are not allowed to use the / or % operators.
 
-16. The original Nintendo Entertainment System (NES) had a screen resolution of 256 horizontal pixels by 240 vertical pixels. Write a program that calculates the numbers of 16 pixel x 16 pixel tiles that could fit within this space (without drawing past the edge of the screen). Display the calculated number of tiles to the user. 
+16\. The original Nintendo Entertainment System (NES) had a screen resolution of 256 horizontal pixels by 240 vertical pixels. Write a program that calculates the numbers of 16 pixel x 16 pixel tiles that could fit within this space (without drawing past the edge of the screen). Display the calculated number of tiles to the user. 
 
-17. Write a program that's a simple role-playing game character generator. This program will ask the player a few questions and then pick an appropriate character class (job or profession) based on the player's answers. Ask the player two questions: "Is your character strong?" and "Is your character smart?" Then pick the class based on these options:
+17\. Write a program that's a simple role-playing game character generator. This program will ask the player a few questions and then pick an appropriate character class (job or profession) based on the player's answers. Ask the player two questions: "Is your character strong?" and "Is your character smart?" Then pick the class based on these options:
 
 strong, not smart: barbarian
 not strong, smart: wizard
@@ -44,10 +44,10 @@ not strong, not smart: peasant
 
 display the chosen character class to the user. 
 
-18. Write a program similar to the one in question 16 but choose your own questions and character classes. Be sure to cover all combinations that your questions allow--notice how quickly the number of possible combinatons grows... (Hint: each new question increases the number of classes by a power of two. One question = two classes, two questions = four classes, three questions = eight classes, four questions = 16 classes, etc.)
+18\. Write a program similar to the one in question 16 but choose your own questions and character classes. Be sure to cover all combinations that your questions allow--notice how quickly the number of possible combinatons grows... (Hint: each new question increases the number of classes by a power of two. One question = two classes, two questions = four classes, three questions = eight classes, four questions = 16 classes, etc.)
 
-19. Write a program that determines whether the user should play baseball today. The program should contain three variables that reference boolean values representing whether it is currently raining, whether it is currently snowing, and whether the user has access to a covered stadium. (You do not need to prompt the user to answer questions, just assign true or false to these variables directly). If it is raining or snowing and the user does not have a covered stadium, advise the user that it is not a good day to play baseball. Otherwise, advise the user that it is okay to play baseball today. Experiment by setting the three variables to different boolean values and test how this affects the final output of your program.
+19\. Write a program that determines whether the user should play baseball today. The program should contain three variables that reference boolean values representing whether it is currently raining, whether it is currently snowing, and whether the user has access to a covered stadium. (You do not need to prompt the user to answer questions, just assign true or false to these variables directly). If it is raining or snowing and the user does not have a covered stadium, advise the user that it is not a good day to play baseball. Otherwise, advise the user that it is okay to play baseball today. Experiment by setting the three variables to different boolean values and test how this affects the final output of your program.
 
-20. Write a program that prompts the user repeatedly to answer the question "Do you want to quit?" The program will ask this question again and again until the user answers "yes," at which point the program will stop asking the question. (Hint: create a variable named "wantsToQuit" that initially contains the boolean value to false. Then create a while statement that uses this variable as the exit condition (i.e., while(!wantsToQuit)). Set wantsToQuit to true within the while loop if the user enters the appropriate text).
+20\. Write a program that prompts the user repeatedly to answer the question "Do you want to quit?" The program will ask this question again and again until the user answers "yes," at which point the program will stop asking the question. (Hint: create a variable named "wantsToQuit" that initially contains the boolean value to false. Then create a while statement that uses this variable as the exit condition (i.e., while(!wantsToQuit)). Set wantsToQuit to true within the while loop if the user enters the appropriate text).
 
-21. Write a program that will prompt the user to enter text and then displays what the user typed. For example, if the user typed "go north" the program would output "you typed: go north." The program will continue prompting the user for input and displaying what was typed until the user enters "quit." After the user enters "quit," the program will display the text "Thank you for playing." and then does nothing. 
+21\. Write a program that will prompt the user to enter text and then displays what the user typed. For example, if the user typed "go north" the program would output "you typed: go north." The program will continue prompting the user for input and displaying what was typed until the user enters "quit." After the user enters "quit," the program will display the text "Thank you for playing." and then does nothing. 
