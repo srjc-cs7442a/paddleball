@@ -38,8 +38,11 @@ Complete these (11-21) as homework and bring them to next class:
 17\. Write a program that's a simple role-playing game character generator. This program will ask the player a few questions and then pick an appropriate character class (job or profession) based on the player's answers. Ask the player two questions: "Is your character strong?" and "Is your character smart?" Then pick the class based on these options:
 
 strong, not smart: barbarian
+
 not strong, smart: wizard
+
 strong, smart: arcane warrior
+
 not strong, not smart: peasant
 
 display the chosen character class to the user. 
