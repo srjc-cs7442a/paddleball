@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CS74.42A Class 1, Exercise 1</title>
+</head>
+<body>
+  <h1>Description</h1>
+  <p>Here is an example html file.  Modify this for your exercises</p>
+
+<button onclick="myFunction()">Run myFunction</button>
+
+<script>
+function myFunction() {
+	var playBaseball = true;
+	var rain = prompt("Is it raining today?");
+	if (rain == "yes") {
+		playBaseball = false;
+	}
+	var snow = prompt("Is it snowing today?");
+	if (snow == "yes") {
+		playBaseball = false;
+	}
+	var stadium = prompt("Do you have access to a covered stadium?");
+	if (stadium == "yes") {
+		playBaseball = true;
+	}
+	if (playBaseball == true) {
+		alert("It is a good idea to play baseball today.");
+	} else {
+		alert("It is not a good idea to play baseball today.")
+	}
+}
+</script>
+
+</body>
+</html>
